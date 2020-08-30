@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sleep 60
+                sh 'sleep 60'
                 sh 'qqq bbb'
             }
         }
