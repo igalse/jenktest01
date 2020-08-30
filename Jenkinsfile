@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'sleep 360'
+                //sh 'sleep 360'
             }
         }
     }
